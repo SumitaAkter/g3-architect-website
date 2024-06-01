@@ -73,7 +73,7 @@ nav li a{
 /* ............mains styles........... */
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 
 }
 
@@ -101,6 +101,9 @@ main{
     color: #727272;
     font-weight: 500;
 }
+.teams-description{
+    color: #727272;
+}
 
 .teams-title .text-features{
     color: #FF900E;
@@ -113,8 +116,17 @@ main{
     header{
         padding: 20px;
     }
-    nav {
+    nav,
+    .teams-container
+    {
         flex-direction: column;
+    }
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    }
+    .teams-content{
+        padding-right: 20px;
+        padding-left: 20px;
     }
 }
 
@@ -124,7 +136,9 @@ main{
     header{
         padding: 50px;
     }
-    nav{
+    nav,
+    .teams-container
+    {
         flex-direction: column;
     }
 }
